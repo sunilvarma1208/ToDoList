@@ -1,0 +1,154 @@
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100%;
+    background: local;
+}
+.main{
+    border-radius: 275px;
+    height: 130px;
+    width: 131px;
+    background-color: white;
+    box-shadow: 0 8px 9px -2px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus{
+    width: 40px;
+    height: 90px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b7b2b2;
+}
+.container{
+    width: 160px;
+    height: 157px;
+    margin-left: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modelMain{
+    width: 555px;
+    height: 450px;
+    border: blueviolet;
+    padding: 1.5rem;
+    background-color: white;
+    border: none;
+    margin-right: 230px;
+    margin-bottom: 45px;
+}
+.modalWrapper{
+    right: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 10, 10, 0.4);
+}
+.modelInputName{
+    margin-top: 30px;
+    margin-left: 16px;
+}
+.modelDesciName{
+    margin-top: 15px;
+    margin-left: 16px;
+    margin-bottom: 5px;
+}
+.modelButtons{
+    float: right;
+    padding-top: 20px;
+}
+.modalCard{
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  width: 235px;
+  padding: 1rem;
+  margin-right: 30px;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 6px 10px 2px #9E9E9E;
+}
+.modalCard:hover {
+  box-shadow: 0 8px 18px 2px #0e0e0e;
+  cursor: pointer;
+}
+textarea {
+  width: 480px;
+  margin-left: 16px;
+  height: 150px;
+  background-color: #ececec;
+  resize: none;
+
+}
+.cancelButton{
+  width: 115px;
+  height: 38px;
+  color: white;
+  background: #847e7e;
+  font-size: 15px;
+  border: none;
+  border-radius: 15px;
+}
+.addButton{
+  background: rgb(115, 210, 201);
+  width: 115px;
+  height: 38px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+input{
+  margin-left: 16px;
+  height: 25px;
+  width: 95%;
+  border:none;
+  border-bottom: 1px solid #CCC;
+}
+.created{
+  color: darkgray;
+}
+.date{
+  color: darkgray;
+  font-size: 11px;
+}
+.cardDescription{
+  overflow: scroll;
+  flex-grow: 1;
+  word-wrap: break-word;
+  max-width: 213px;
+  padding-top: 1px;
+  color: rgb(31, 29, 29);
+}
+.cardTitle{
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+.deleteCard{
+  border: none;
+  background-color: inherit;
+  color: #101010;
+  flex-grow: 1;
+  font-size: 18px;
+}
+.textColor{
+  color: rgba(44, 44, 216, 0.92);
+  flex-grow: 1;
+  font-size: 25px;
+}
+.modalHide{
+float: right;
+cursor: pointer;
+font-size: 17px;
+}
